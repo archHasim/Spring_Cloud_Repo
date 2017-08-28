@@ -1,0 +1,9 @@
+message=hello dev
+test=me
+
+management.security.enabled=false
+try.this=hello me
+spring.application.name=spring-cloud-eureka-client
+server.port= 8883
+eureka.client.serviceUrl.defaultZone=${EUREKA_URI:http://localhost:8761/eureka}
+eureka.instance.preferIpAddress=true
